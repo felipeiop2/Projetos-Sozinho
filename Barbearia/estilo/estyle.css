@@ -1,0 +1,38 @@
+div{
+   text-align: center;
+}
+main{
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+body{
+    background-color: #F1F1F1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    color: #606062;
+    border: 5px solid #606062;
+}
+p{
+    color: #616163;
+    font-size: 1.5em;
+}
+.negrito{
+    font-weight: bold;
+}
+hr{
+    border: 1px solid #606062;
+}
+a{
+    background-color: #25D366;
+    font-size: 1.5em;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+a:hover{
+    text-decoration: underline;
+}
