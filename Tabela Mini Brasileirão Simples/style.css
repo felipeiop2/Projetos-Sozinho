@@ -3,6 +3,17 @@
     src: url(fontes/a_brazilian_tv_channel__by_629lyric-d98611g.ttf) format(truetype);
      
 }
+@font-face {
+    font-family:'menu';
+    src: url(fontes/OpenSans-VariableFont_wdth\,wght.ttf) format(truetype);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #FCFCFC;
@@ -10,19 +21,105 @@ body{
 }
 header{
     background-color: white;
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 650px; /* Aqui está o erro, se coloco em % não dá certo e em px não fica responsivo */
+    
+    background-repeat: no-repeat;
 }
 ul{
     list-style-type: none;
     display: flex;
-    
+ 
 }
-li{
+.sites li{
     padding-right: 14px;
     font-family: 'Globo', Helvetica, sans-serif;
+    margin: 10px;
+    
+}
+.links
+{color: black;}
+.azul{
+    color: #0669DE;
+}
+.vermelho{
+    color: #C8170C;
+}
+.verde2{
+    color: #06AA53;
+}
+.laranja{
+    color: #FF6700;
+}
+.rosa{
+    color: #FB0361;
+}
+.cor{
+    color: #E3672B;
+}
+.escuro{
+    color:#08053A;
+}
+img{
+    height: 30px;
+}
+.verde{
+    background-color: #06AA48;
+    padding: 20px;
+    padding-right: 14px;
+    color: white;
+}
+.verde  h1{
+    margin: auto;
+    color: white;
+}
+
+.verde li{
+   display: flex; 
+}
+.imagem{
+    height: 30px;
+}
+.ge{
+    height: 100px;
+    position: absolute;
+    top: 30px;
+}
+
+.menu{
+    font-family: 'menu', Helvetica, sans-serif;
+    font-weight:bold;
+    font-style: normal;
+}
+.submenus{
+    font-family: 'globo', Helvetica, sans-serif;
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.486);
+    padding: 1px;
+    
+
+    
+}
+.submenus li{
+    padding-right: 14px;
+    background-color: #06AA48;
+    
+    
+    
+}
+.branco{
+    color: white;
 }
 td{
     border: 1px solid black;
     padding: 10px;
+    
 }
 table{
     margin: auto;
