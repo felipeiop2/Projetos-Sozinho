@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'madimi';
+    src: url(fontes/MadimiOne-Regular.ttf) format(truetype);
+}
+@font-face {
+    font-family:'roboto';
+    src: url(fontes/RobotoMono-Italic-VariableFont_wght.ttf)
+    format(truetype);
+}
+:root{
+    --fundo-background-color: #4010E0;
+    --cabecalho-background-color:#8510E0;
+    --fonte1-font-family:'roboto', Helvetica, sans-serif;
+    --fonte2-font-family:'madimi', Helvetica, sans-serif;
+    --cor1-background-color:#7A5BE0;
+    
+}
+header{
+background-color:var(--cabecalho-background-color);
+min-height: 100px;
+max-height: 100px;
+padding: 10px;
+font-family:var(--fonte2-font-family);
+border-radius: 10px;
+}
+
+header h1 {
+    background-color: white;
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+}
+.menu ul{
+    padding: 0px;
+    margin: 30px;
+    list-style: none;
+    text-align: center;
+    
+}
+.menu ul li {
+    display: inline;
+}
+.menu ul li a {
+    padding: 2px 10px; 
+    display: inline-block; /* visual do link */ 
+    background-color:#EDEDED; 
+    color: #333; 
+    text-decoration: none; 
+    border-bottom:3px solid #EDEDED;
+    border-radius: 10px;
+    
+}
+body {
+    background-color:var(--fundo-background-color);
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    min-width: 320px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+input{
+    margin: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: 0.5px solid white;
+    background-color: #EDEDED;
+}
+article{
+    text-align: center;
+    font-family: var(--fonte1-font-family);
+}
+label{
+    background-color:var(--cor1-background-color);
+    border-radius: 5px;
+    font-size: 1em;
+}
+footer{
+    text-align: center;
+    font-size: 0.5em;
+    background-color: #333;
+    border-radius:5px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 1px;
+    color: white;
+}
