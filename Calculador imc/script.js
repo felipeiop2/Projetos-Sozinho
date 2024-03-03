@@ -8,10 +8,10 @@ function verificar(){
     let res1 = parseFloat(peso.value) / parseFloat(altura.value)
     
     if(nome.value == "" || sobrenome.value == "" || peso.value == "" || altura.value == ""){
-        res.innerHTML(`<strong> Atenção alguns dados não foram prenchidos corretamente </strong>`)
+        res.innerHTML = `<strong> Atenção alguns dados não foram prenchidos corretamente </strong>`
     } else{
         let res2 = res1 / parseFloat(altura.value)
-        res.innerHTML(`Ola ${nome.value} ${sobrenome.value}, seu imc é de ${res2.toFixed(2)}`)
+        res.innerHTML =`<strong> Ola ${nome.value} ${sobrenome.value}, seu imc é de ${res2.toFixed(2)} </strong>`
     }
 
 }
